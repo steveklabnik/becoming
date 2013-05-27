@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Becoming::VERSION
   spec.authors       = ["Steve Klabnik"]
   spec.email         = ["steve@steveklabnik.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Better delegators for Ruby 2.0. Allow your objects to have 'becomings,' temporarily giving them different functionality.}
+  spec.summary       = %q{A better way to do delegation.}
+  spec.homepage      = "https://github.com/steveklabnik/becoming"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
