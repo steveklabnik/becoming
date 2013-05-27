@@ -12,8 +12,9 @@ they're just... different.
 
 Add this line to your application's Gemfile:
 
-    gem 'becoming'
-
+```ruby
+gem 'becoming'
+```
 And then execute:
 
     $ bundle
@@ -79,7 +80,7 @@ Drat! So what do we do?
 
 Answer: make your object have a becoming:
 
-```
+```ruby
 # in the model
 User = Struct.new(:first_name, :last_name) do
   include Becoming
