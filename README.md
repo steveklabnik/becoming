@@ -119,3 +119,8 @@ You can only use this with Ruby 2.0, sorry.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Thanks
+
+Shout-outs go to Avdi Grimm, Gilles Deleuze, and Felix Guattari. Without them,
+this gem wouldn't exist.
