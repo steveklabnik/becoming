@@ -124,3 +124,9 @@ You can only use this with Ruby 2.0, sorry.
 
 Shout-outs go to Avdi Grimm, Gilles Deleuze, and Felix Guattari. Without them,
 this gem wouldn't exist.
+
+Avdi for the excellent [Ruby Tapas](http://www.rubytapas.com/), on which
+Episode 91 became the basis for the code in this gem.
+
+D&G for making me moderatly obsessed with the idea of OOO where objects turn
+into other objects. Also the name.
