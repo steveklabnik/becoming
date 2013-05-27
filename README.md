@@ -106,7 +106,7 @@ Magic.
 
 ### Is it any good?
 
-Yes.
+[Yes](https://news.ycombinator.com/item?id=3067434).
 
 ### What's the catch?
 
