@@ -103,7 +103,7 @@ just peachy.
 
 ### How does it work?
 
-Magic.
+![Magic](http://dl.dropboxusercontent.com/u/1128017/magic.gif)
 
 ### Is it any good?
 
