@@ -19,4 +19,11 @@ class BecomingTest < MiniTest::Unit::TestCase
 
     assert_equal "Steve Klabnik", user.full_name
   end
+
+  def test_becoming_null_object
+    user = User.new("Sam", "Serpoosh")
+    user.becoming(NullObject)
+    
+    user.not_existing_method # should not raise NoMethodError
+  end
 end

@@ -21,3 +21,7 @@ module Becoming
     end
   end
 end
+
+module NullObject
+  def method_missing(m, *args, &blk); end
+end
