@@ -1,5 +1,4 @@
 require 'test_helper'
-
 require 'becoming'
 
 User = Struct.new(:first_name, :last_name) do
@@ -22,7 +21,7 @@ class BecomingTest < MiniTest::Unit::TestCase
 
   def test_becoming_null_object
     user = User.new("Sam", "Serpoosh")
-    user.becoming(NullObject)
+    user.becoming(Becoming::NullObject)
     
     user.not_existing_method # should not raise NoMethodError
   end
