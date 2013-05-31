@@ -21,3 +21,19 @@ module Becoming
     end
   end
 end
+
+module Becoming
+  module NullObject
+    def self.public_method_defined?(m)
+      true
+    end
+
+    def self.instance_method(m)
+      ByPass.instance_method(:bypass)
+    end
+
+    module ByPass
+      def bypass(*args, &blk); end
+    end
+  end
+end
